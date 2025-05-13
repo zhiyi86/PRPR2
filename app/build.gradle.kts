@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.meme"
+    namespace = "com.example.project"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.meme"
+        applicationId = "com.example.project"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -43,4 +43,6 @@ dependencies {
     implementation("com.android.volley:volley:1.2.1")
     implementation("com.squareup.picasso:picasso:2.71828")
     implementation("com.google.code.gson:gson:2.10")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
 }

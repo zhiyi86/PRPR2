@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Meme"
+rootProject.name = "project"
 include(":app")
  

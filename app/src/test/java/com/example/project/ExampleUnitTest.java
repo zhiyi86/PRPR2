@@ -1,4 +1,4 @@
-package com.example.meme;
+package com.example.project;
 
 import org.junit.Test;
 
